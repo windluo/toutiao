@@ -9,7 +9,7 @@ import '../css/comm.css'
 import topbar from '../components/topbar.vue'
 import sidebar from '../components/sidebar.vue'
 import main from '../components/main.vue'
-import all from '../components/all.vue'
+import recommend from '../components/recommend.vue'
 import welcome from '../components/welcome.vue'
 
 Vue.use(VueRouter)
@@ -23,8 +23,8 @@ const routes = [
 		},
 		children: [
 			{
-				path: '/all',
-				component: all
+				path: '/recommend',
+				component: recommend
 			},
 			{
 				path: '/welcome',

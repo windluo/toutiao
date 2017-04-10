@@ -2,7 +2,6 @@
 	<div class="welcome-page">
 		<div class="heading">
 			<h1>Welcome</h1>
-			<router-link to="/all" class="router-link">去看看>></router-link>
 		</div>
 	</div>
 </template>
@@ -21,9 +20,6 @@
 			top: 45%;
 			transform: translateY(-45%);
 			text-align: center;
-		}
-		.router-link{
-			color: #333;
 		}
 	}
 </style>
